@@ -88,11 +88,7 @@
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
 
-                <!-- Your share button code -->
-                <div class="fb-share-button"
-                     data-href="http://poemsapi.ga/"
-                     data-layout="button_count">
-                </div>
+                <div class="fb-share-button" data-href="http://poemsapi.ga/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpoemsapi.ga%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"></a></div>
 
             </div>
         </div>
