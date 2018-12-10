@@ -3,6 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:url"           content="http://poemsapi.ga/" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Guga nems" />
+        <meta property="og:description"   content="GUGA DESCR" />
+        <meta property="og:image"         content="http://poemsapi.ga/public/svg/heracle.jpg" />
 
         <title>Laravel</title>
 
@@ -72,6 +77,21 @@
                 </div>
                 <div class="m-b-md">
                     <h2><code>poemsapi.ga/public/api/poem/{id}</code></h2>
+                </div>
+
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = 'https://connect.facebook.net/ka_GE/sdk.js#xfbml=1&version=v3.2';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
+                <!-- Your share button code -->
+                <div class="fb-share-button"
+                     data-href="http://poemsapi.ga/"
+                     data-layout="button_count">
                 </div>
 
             </div>
