@@ -15,8 +15,8 @@ class PoemsController extends Controller
     }
 
     public function getPoemsCount(){
-        $count = DB::table('poems')->count();
+        $count = DB::table('poemsCount')->where('id', '=', 1)->get();
 
-        return "[{'count':".$count."}]";
+        return $count;
     }
 }
