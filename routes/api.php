@@ -17,4 +17,4 @@ Route::get('/poem/{id}', 'PoemsController@getPoem');
 Route::get('/poems', 'PoemsController@getPoemsCount');
 
 // send email
-Route::get('/sendEmail/{recipient}/{subject/{body}', 'MailController@sendEmail');
+Route::get('/sendmail/{recipient}/{subject}/{body}', 'MailController@sendmail');
